@@ -1,1 +1,1 @@
-hiddensnake @ git+https://github.com/MichalHer/hiddensnake@6e345a753606e0f6dde26b5c6ce6507d38b25301
+hiddensnake @ git+https://github.com/MichalHer/hiddensnake
