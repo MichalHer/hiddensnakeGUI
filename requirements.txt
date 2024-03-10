@@ -1,1 +1,2 @@
 hiddensnake @ git+https://github.com/MichalHer/hiddensnake
+pillow

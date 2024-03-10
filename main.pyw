@@ -45,7 +45,7 @@ class App(Tk):
         
         # main window settings
         self.title("HiddenSnake")
-        self.geometry("400x300")
+        self.geometry("500x400")
         
         self.grid()
         self.columnconfigure(0,weight=50)
@@ -83,7 +83,7 @@ class App(Tk):
         self.add_carrier_btn = ttk.Button(self, text="Find", command=self.select_hidden_file).grid(column=1,row=6)
 
         # bottom frame
-        self.test_frame = ttk.Frame(self, padding=20)
+        self.test_frame = ttk.Frame(self, padding=50)
         self.test_frame.grid(column=0, columnspan=2, row=100, sticky='s')
         self.test_frame.rev_btn = ttk.Button(self.test_frame, text="Reveal", command=self.reveal).grid(column=0,row=0)
         self.test_frame.hid_btn = ttk.Button(self.test_frame, text="Hide", command=self.hide).grid(column=1,row=0)
